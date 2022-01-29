@@ -12,6 +12,11 @@ public class InternalStorage {
 		System.out.println("\nProcessor Name is intel");
 	}
 	
+	private void method() {
+		System.out.println("method");
+
+	}
+	
 	public static void main(String[] args) {
 
 		InternalStorage i = new InternalStorage();
